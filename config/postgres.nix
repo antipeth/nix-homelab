@@ -2,9 +2,9 @@
 {
   services.postgresql = {
     enable = true;
-    port = 5432;
     package = pkgs.postgresql_16;
     settings = {
+      port = 5432;
       max_connections = 20;
       shared_buffers = "256MB";
       effective_cache_size = "768MB";

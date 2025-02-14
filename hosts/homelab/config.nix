@@ -18,6 +18,7 @@
     # ../../packages/uptime-kuma.nix
 
     ../../config/blacklist.nix
+    ../../config/home-assistant.nix
     ../../config/immich.nix
     ../../config/nfs.nix
     ../../config/postgres.nix

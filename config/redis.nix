@@ -1,6 +1,8 @@
 {
-  services.redis = {
-    enable = true;
-    port = 6379;
+  services.redis.servers = {
+    redis = {
+      port = 6379;
+      enable = true;
+    };
   };
 }
