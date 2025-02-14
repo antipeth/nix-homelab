@@ -24,6 +24,7 @@
     ../../config/power-management.nix
     ../../config/redis.nix
     ../../config/samba.nix
+    # ../../config/syncthing.nix
     ../../config/user.nix
     ../../config/webdav.nix
     ../../config/zfs.nix
